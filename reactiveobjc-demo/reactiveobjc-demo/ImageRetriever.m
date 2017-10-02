@@ -51,7 +51,7 @@
             } else {
                 /// Something got unexpected, sending nil
                 for (id<RACSubscriber> subscriber in self.subscribers) {
-                    /// Sending our image to subscribers
+                    /// Sending nil to subscribers
                     /// Notice, we aren't in main thread
                     [subscriber sendNext:nil];
                 }
@@ -62,6 +62,8 @@
         } else {
             /// Our response is nil
             for (id<RACSubscriber> subscriber in self.subscribers) {
+                /// Sending nil to subscribers
+                /// Notice, we aren't in main thread
                 [subscriber sendNext:nil];
             }
             NSLog(@"Request failed. \n\tResponse is nil");
