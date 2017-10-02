@@ -8,24 +8,44 @@
 
 /* Begin PBXBuildFile section */
 		BAFA473E1F827ED600C7E8F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA473D1F827ED600C7E8F1 /* AppDelegate.m */; };
-		BAFA47411F827ED600C7E8F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA47401F827ED600C7E8F1 /* ViewController.m */; };
 		BAFA47441F827ED600C7E8F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFA47421F827ED600C7E8F1 /* Main.storyboard */; };
 		BAFA47461F827ED600C7E8F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAFA47451F827ED600C7E8F1 /* Assets.xcassets */; };
 		BAFA47491F827ED600C7E8F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAFA47471F827ED600C7E8F1 /* LaunchScreen.storyboard */; };
 		BAFA474C1F827ED600C7E8F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA474B1F827ED600C7E8F1 /* main.m */; };
+		BAFA47531F827FA200C7E8F1 /* ReactiveObjC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAFA47521F827FA200C7E8F1 /* ReactiveObjC.framework */; };
+		BAFA47541F827FA200C7E8F1 /* ReactiveObjC.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BAFA47521F827FA200C7E8F1 /* ReactiveObjC.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		BAFA47591F8286A000C7E8F1 /* ImageRetriever.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA47581F8286A000C7E8F1 /* ImageRetriever.m */; };
+		BAFA475C1F828CA600C7E8F1 /* BasicSignalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BAFA475B1F828CA600C7E8F1 /* BasicSignalViewController.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BAFA47551F827FA300C7E8F1 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				BAFA47541F827FA200C7E8F1 /* ReactiveObjC.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		BAFA47391F827ED600C7E8F1 /* reactiveobjc-demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "reactiveobjc-demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFA473C1F827ED600C7E8F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BAFA473D1F827ED600C7E8F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BAFA473F1F827ED600C7E8F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BAFA47401F827ED600C7E8F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BAFA47431F827ED600C7E8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAFA47451F827ED600C7E8F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAFA47481F827ED600C7E8F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAFA474A1F827ED600C7E8F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAFA474B1F827ED600C7E8F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BAFA47521F827FA200C7E8F1 /* ReactiveObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = ReactiveObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAFA47571F8286A000C7E8F1 /* ImageRetriever.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageRetriever.h; sourceTree = "<group>"; };
+		BAFA47581F8286A000C7E8F1 /* ImageRetriever.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageRetriever.m; sourceTree = "<group>"; };
+		BAFA475A1F828CA600C7E8F1 /* BasicSignalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicSignalViewController.h; sourceTree = "<group>"; };
+		BAFA475B1F828CA600C7E8F1 /* BasicSignalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicSignalViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFA47531F827FA200C7E8F1 /* ReactiveObjC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,7 @@
 		BAFA47301F827ED600C7E8F1 = {
 			isa = PBXGroup;
 			children = (
+				BAFA47561F827FD100C7E8F1 /* Frameworks */,
 				BAFA473B1F827ED600C7E8F1 /* reactiveobjc-demo */,
 				BAFA473A1F827ED600C7E8F1 /* Products */,
 			);
@@ -60,15 +82,25 @@
 			children = (
 				BAFA473C1F827ED600C7E8F1 /* AppDelegate.h */,
 				BAFA473D1F827ED600C7E8F1 /* AppDelegate.m */,
-				BAFA473F1F827ED600C7E8F1 /* ViewController.h */,
-				BAFA47401F827ED600C7E8F1 /* ViewController.m */,
 				BAFA47421F827ED600C7E8F1 /* Main.storyboard */,
 				BAFA47451F827ED600C7E8F1 /* Assets.xcassets */,
 				BAFA47471F827ED600C7E8F1 /* LaunchScreen.storyboard */,
 				BAFA474A1F827ED600C7E8F1 /* Info.plist */,
 				BAFA474B1F827ED600C7E8F1 /* main.m */,
+				BAFA47571F8286A000C7E8F1 /* ImageRetriever.h */,
+				BAFA47581F8286A000C7E8F1 /* ImageRetriever.m */,
+				BAFA475A1F828CA600C7E8F1 /* BasicSignalViewController.h */,
+				BAFA475B1F828CA600C7E8F1 /* BasicSignalViewController.m */,
 			);
 			path = "reactiveobjc-demo";
+			sourceTree = "<group>";
+		};
+		BAFA47561F827FD100C7E8F1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAFA47521F827FA200C7E8F1 /* ReactiveObjC.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -81,6 +113,7 @@
 				BAFA47351F827ED600C7E8F1 /* Sources */,
 				BAFA47361F827ED600C7E8F1 /* Frameworks */,
 				BAFA47371F827ED600C7E8F1 /* Resources */,
+				BAFA47551F827FA300C7E8F1 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -142,9 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BAFA47411F827ED600C7E8F1 /* ViewController.m in Sources */,
 				BAFA474C1F827ED600C7E8F1 /* main.m in Sources */,
+				BAFA475C1F828CA600C7E8F1 /* BasicSignalViewController.m in Sources */,
 				BAFA473E1F827ED600C7E8F1 /* AppDelegate.m in Sources */,
+				BAFA47591F8286A000C7E8F1 /* ImageRetriever.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -218,7 +252,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;

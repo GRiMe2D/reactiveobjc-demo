@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:ReactiveObjC/ReactiveObjC.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:reactiveobjc-demo/reactiveobjc-demo.xcodeproj">
    </FileRef>
 </Workspace>

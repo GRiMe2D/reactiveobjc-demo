@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BasicSignalViewController.h
 //  reactiveobjc-demo
 //
 //  Created by Shakhzod Ikromov on 10/2/17.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BasicSignalViewController : UIViewController
 
 @end
-
